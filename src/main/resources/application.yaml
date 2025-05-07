@@ -1,3 +1,9 @@
 spring:
   application:
     name: spring-template-api
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mydatabase
+    username: myuser
+    password: mypassword
+    driver-class-name: org.postgresql.Driver
